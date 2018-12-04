@@ -2,6 +2,7 @@
 Repo for demo Native Linking bug while using Firebase
 
 See packages.config:
+```
 <packages>
   <package id="Xamarin.Build.Download" version="0.4.11" targetFramework="xamarinios10" />
   <package id="Xamarin.Firebase.iOS.Analytics" version="5.1.4" targetFramework="xamarinios10" />
@@ -10,22 +11,27 @@ See packages.config:
   <package id="Xamarin.Firebase.iOS.Crashlytics" version="3.10.9" targetFramework="xamarinios10" />
   <package id="Xamarin.Firebase.iOS.InstanceID" version="3.2.1" targetFramework="xamarinios10" />
 </packages>
+```
 
 This repo is almost default iOS project, created by Visual Studio for Mac. The only change is the set of nuget packages (see above). 
+
 # This project CAN NOT be built in this environment:
 
 Visual Studio Community 2017 for Mac
-Version 7.6.11 (build 9)
+Version 7.7 (build 1868)
 Installation UUID: be401d1b-e028-4720-bba5-f4766cba7973
-Runtime:
-	Mono 5.16.0.220 (2018-06/bb3ae37d71a) (64-bit)
 	GTK+ 2.24.23 (Raleigh theme)
 	Xamarin.Mac 4.4.1.178 (master / eeaeb7e6)
 
-	Package version: 516000220
+	Package version: 516000221
+
+Mono Framework MDK
+Runtime:
+	Mono 5.16.0.221 (2018-06/b63e5378e38) (64-bit)
+	Package version: 516000221
 
 NuGet
-Version: 4.3.1.4445
+Version: 4.7.0.5148
 
 .NET Core
 Runtime: /usr/local/share/dotnet/dotnet
@@ -41,7 +47,7 @@ SDK Versions:
 MSBuild SDKs: /Library/Frameworks/Mono.framework/Versions/5.16.0/lib/mono/msbuild/15.0/bin/Sdks
 
 Xamarin.Profiler
-Version: 1.6.3
+Version: 1.6.4
 Location: /Applications/Xamarin Profiler.app/Contents/MacOS/Xamarin Profiler
 
 Apple Developer Tools
@@ -49,23 +55,23 @@ Xcode 10.1 (14460.46)
 Build 10B61
 
 Xamarin.Mac
-Version: 5.0.0.0 (Visual Studio Community)
-Hash: b40230c0
+Version: 5.2.1.11 (Visual Studio Community)
+Hash: 5ef73d34
 Branch: 
-Build date: 2018-09-27 11:41:37-0400
+Build date: 2018-11-21 00:03:25-0500
 
 Xamarin.iOS
-Version: 12.2.1.10 (Visual Studio Community)
-Hash: f2a05edd
+Version: 12.2.1.11 (Visual Studio Community)
+Hash: 5ef73d34
 Branch: d15-9
-Build date: 2018-10-31 18:55:57-0400
+Build date: 2018-11-21 00:03:24-0500
 
 Build Information
-Release ID: 706110009
-Git revision: d7cd66f5e3acd3d46ba0b94a0c935378f828bde0
-Build date: 2018-10-31 17:17:12+00
-Build branch: release-7.6
-Xamarin extensions: bc9b985bfcb480b04a208a6d4045adc443a07857
+Release ID: 707001868
+Git revision: 8bcdfa96d67c8c88dc45728cc968a2f84b55322f
+Build date: 2018-11-22 12:19:29+00
+Build branch: release-7.7
+Xamarin extensions: d66dbedcda237cd9b546abfecfeecafba6f8e3cb
 
 Operating System
 Mac OS X 10.14.1
@@ -82,3 +88,4 @@ Open With 0.1
 NuGet Package Management Extensions 0.13
 Prism Template Studio and Developer Toolkit 2.2.0.434
 Prism QuickStart TemplatePack 1.5.0
+
