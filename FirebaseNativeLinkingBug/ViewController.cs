@@ -15,6 +15,7 @@ namespace FirebaseNativeLinkingBug
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+            var foo = Firebase.Core.Configuration.SharedInstance;
         }
 
         public override void DidReceiveMemoryWarning()
