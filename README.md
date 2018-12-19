@@ -1,3 +1,9 @@
+# Upd 19 Dec 2018:
+Now it's possible to build this project, all you need is to add 
+```
+            var foo = Firebase.Core.Configuration.SharedInstance;
+```
+See https://github.com/xamarin/GoogleApisForiOSComponents/issues/158#issuecomment-448682798
 # FirebaseNativeLinkingBug
 Repo for demo Native Linking bug while using Firebase
 
